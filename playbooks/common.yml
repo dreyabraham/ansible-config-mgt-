@@ -21,3 +21,6 @@
         update_cache: yes
 
     - name: ensure wireshark is at the latest version
+    apt:
+        name: wireshark
+        state: latest
